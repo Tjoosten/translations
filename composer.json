@@ -1,0 +1,22 @@
+{
+    "name": "sijot/translations",
+    "description": "Translations for the sijot website",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tjoosten",
+            "email": "Tjoosten3@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-translation-loader": "^1.1",
+        "Illuminate/database": "^5.4",
+        "Illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sijot\\Translations\\": "src"
+        }
+    }
+}
